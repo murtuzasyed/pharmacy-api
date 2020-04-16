@@ -1,0 +1,29 @@
+{
+  "name": "pharmacy-api",
+  "version": "1.0.0",
+  "description": "Simple Api for retrieving pharmacies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index",
+    "build": "webpack --config webpack.config.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "geolib": "^3.2.1",
+    "node-cache": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.11.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
